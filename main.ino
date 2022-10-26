@@ -1,6 +1,9 @@
 /*
  	Reach for the Top Gameshow circuit
 	By: Gavin T.
+    
+    Fully scalable with every hard-coded value can be changed 
+    in the variable setup
 */
 
 // ------------------- VARIABLE SETUP -------------------
