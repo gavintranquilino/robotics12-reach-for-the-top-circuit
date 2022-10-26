@@ -58,6 +58,13 @@ void setup() {
 }
 
 void loop() { 
+  
+  /* 
+  	loops through all buttons, so that it randomly starts
+    from a random button
+    (removes left side priority when pressing 2 buzzers near
+    the same time)
+  */
   for (int b=0; b<lenRows; b++) {
     if (!arr[b][2]) { // if button is off
       onLed(b, returnLightLvl(b));
